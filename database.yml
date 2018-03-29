@@ -1,8 +1,8 @@
 development:
   dialect: postgres
-  database: bigyeti_development
+  database: {{envOr "DATABASE_NAME" "bigyeti_development"}} 
   user: postgres
-  password: postgres
+  password:  {{envOr "DATABASE_PASSWORD" "postgres"}} 
   host: 127.0.0.1
   pool: 5
 
