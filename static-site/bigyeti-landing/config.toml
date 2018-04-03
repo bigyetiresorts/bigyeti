@@ -1,12 +1,13 @@
 # Page settings
 baseurl = "localhost:1313"
+# baseurl = "bigyetiresort.com"
 title = "Elate theme"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 
 [params]
   
-  custom_css = ["css/custom1.css", "css/custom2.css"]
+  custom_css = ["css/custom.css" ]
 
   # Meta
   author = "Obi Knows"
@@ -14,11 +15,11 @@ theme = "hugo-elate-theme"
   email = "obiknows88@gmail.com"
   # Navigation
   [params.navigation]
-    brand = "Elate"
+    brand = "Big Yeti"
     home = "Home"
-    work = "Village"
-    timeline = "Timeline"
-    services = "Locations"
+    work = "Locations"
+    testimonials = "Reviews"
+    services = "Services"
     about = "About"
     contact = "Contact"
 
@@ -40,7 +41,7 @@ theme = "hugo-elate-theme"
   # Hero section
   [params.hero]
     title = "Stay Tiny, Live Big"
-    subtitle = 'Big Yeti is a adventure brand dedicated toward positive-impact eco-tourism, having fun and making some money doing it'
+    subtitle = 'Welcome! Big Yeti is a adventure brand dedicated toward positive-impact eco-tourism, having fun and making some money doing it'
  
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -80,50 +81,50 @@ theme = "hugo-elate-theme"
   # Work section
   [params.work]
     enable = true
-    title = "Work"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+    title = "Our Locations"
+    description = "See just a small selection of our sites"
+    footertext = '** First Proposed location is Lake Tahoe (Summer 2018)'
 
     [[params.work.row]]
       img = "work_1.jpg"
       alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
+      title = "Lake Tahoe/Sacramento"
+      subtitle = "Tiny Eco Village & Bar"
+    [[params.work.row]]
+      img = "work_1.jpg"
+      alt = "Image2"
+      title = "Oregon/Seattle"
+      subtitle = "Eco Village and Research Lodge & Stay"
 
     [[params.work.row]]
       img = "work_2.jpg"
       alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
+      title = "Vegas/Los Angeles"
+      subtitle = "Desert Eco-Design Studios"
 
     [[params.work.row]]
       img = "work_3.jpg"
       alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
+      title = "Houston/Miami"
+      subtitle = "Oceanfront Beach Eco Bungalows"
 
     [[params.work.row]]
       img = "work_4.jpg"
       alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
+      title = "Detroit/Chicago"
+      subtitle = "Midwest Modern Realties"
 
     [[params.work.row]]
       img = "work_5.jpg"
       alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
+      title = "New England"
+      subtitle = "Tiny Eco Properties"
 
-    [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
 
-  # Timeline section
-  [params.timeline]
+  # Services section
+  [params.testimonials]
     enable = true
-    title = "Testimonials"
+    title = "Reviews"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.testimonials.item]]
@@ -217,7 +218,7 @@ theme = "hugo-elate-theme"
   # Counters section
   [params.counters]
     enable = true
-    title = "Stats"
+    title = "Timeline"
     background = "full_image_1.jpg"
 
     [[params.counters.item]]
@@ -262,17 +263,17 @@ theme = "hugo-elate-theme"
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
+        ["icon-home", "43310 Laing Rd, Emigrant Gap<br> Lake Tahoe California, United States"],
         ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@freehtml5.co"],
-        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+        ["icon-envelope", "info@bigyetiresort.com"],
+        ["icon-globe", '<a href="http://bigyetiresort.com/" target="_blank">bigyetiresort.com</a>']
       ]
 
     name = "Name"
     email = "Email"
     phone = "Phone"
-    message = "Message"
-    button = "Send message"
+    message = "Say hello"
+    button = "Leave a message"
 
   # Footer section
   [params.footer]
